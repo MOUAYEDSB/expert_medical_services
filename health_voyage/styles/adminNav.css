@@ -1,0 +1,70 @@
+.header {
+	background: #333;
+	color: white;
+	padding: 20px 0;
+	display: flex;
+	justify-content: center;
+}
+
+.navbar a {
+	color: white;
+	text-decoration: none;
+	margin: 0 15px;
+	font-size: 16px;
+	transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+	color: #8665f7;
+	/* Change color on hover */
+}
+
+/* Table */
+.table-box {
+	margin: 50px auto;
+	width: 80%;
+}
+
+.table-row {
+	display: table;
+	width: 100%;
+	background: transparent;
+	padding: 12px 0;
+	color: #555;
+	font-size: 13px;
+	box-shadow: 0 1px 4px 0 rgba(0, 0, 50, 0.3);
+}
+
+.table-cell {
+	display: table-cell;
+	width: 25%;
+	/* Adjust cell width as needed */
+	text-align: center;
+	padding: 10px 0;
+	border-right: 1px solid #d6d4d4;
+	vertical-align: middle;
+}
+
+.table-head {
+	background: #8665f7;
+	color: white;
+	font-weight: 600;
+}
+
+.table-head .table-cell {
+	border-right: none;
+}
+
+.last-cell {
+	border-right: none;
+}
+
+.first-cell {
+	text-align: left;
+	padding-left: 20px;
+}
+
+/* Add hover effect for better user experience */
+.table-row:hover {
+	background: #f1f1f1;
+}

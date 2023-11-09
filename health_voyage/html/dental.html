@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>dental care</title>
+	<script src="script.js" defer></script>
+	<link rel="stylesheet" href="dental.css">
+</head>
+
+<body>
+	<!--navigation-->
+	<header class="row container">
+		<div class="logo">
+			<img src="images/logo.png" alt="HealthVoyage">
+		</div>
+		<div class="toggleMenu" onclick="toggleMenu();"></div>
+		<nav class="navigation row">
+			<ul class="row">
+				<li><a href="index.html">home</a></li>
+				<li><a href="#">about</a></li>
+				<li><a href="#">services</a></li>
+				<li><a href="#">gallery</a></li>
+				<li><a href="contact.html">contact</a></li>
+				<li>
+					<a href="#" class="page-btn active toggleContact" onclick="toggleContact();">book oppintment</a>
+					<div class="contactMenu">
+						<div class="contactMenu-content row flex container">
+							<div>
+								<h4>book your visit at</h4>
+								<p>HealthVoyage</p>
+								<form action="">
+									<div class="from row">
+										<div>
+											<label for="Name"></label>
+											<input type="text" name="" id="" placeholder="Name">
+										</div>
+										<div>
+											<label for="Phone"></label>
+											<input type="tel" name="" id="" placeholder="Phone number">
+										</div>
+										<div>
+											<label for="select Date"></label>
+											<input type="Date" name="" id="">
+										</div>
+										<div>
+											<label for="select Hour"></label>
+											<select name="" id="">
+												<option value="0">10:00 am</option>
+												<option value="0">10:30 am</option>
+												<option value="0">11:00 am</option>
+												<option value="0">12:00 am</option>
+												<option value="0">12:30 am</option>
+											</select>
+										</div>
+									</div>
+									<div>
+										<label for="select services"></label>
+										<select name="" id="">
+											<option value="0">dental car</option>
+											<option value="0">dental implant</option>
+											<option value="0">dental braces</option>
+											<option value="0">teeth whitening</option>
+											<option value="0">patient safety</option>
+										</select>
+									</div>
+									<button type="submit" class="page-btn">make an oppintment</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</nav>
+		</div>
+	</header>
+</body>
+
+</html>
