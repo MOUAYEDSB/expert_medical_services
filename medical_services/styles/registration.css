@@ -1,0 +1,112 @@
+/* Import Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+body {
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: #4169E1; /* Light gray background */
+  font-family: "Poppins", sans-serif;
+  color: #333;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  background: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  margin: auto;
+}
+
+.container header {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form {
+  margin-top: 20px;
+}
+
+.input-box {
+  margin-top: 20px;
+}
+
+.input-box label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.input-box input,
+.input-box select,
+.input-box textarea {
+  width: 100%;
+  height: 40px;
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-top: 8px;
+  box-sizing: border-box;
+}
+
+.input-box textarea {
+  height: 80px; /* Adjust the height for textarea */
+  resize: vertical; /* Allow vertical resizing */
+}
+
+.gender-box {
+  margin-top: 20px;
+}
+
+.gender-option {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gender {
+  margin-right: 20px;
+}
+
+.gender input,
+.gender label {
+  cursor: pointer;
+}
+
+.button {
+  margin-top: 30px;
+}
+
+.button input {
+  height: 45px;
+  background: #4169E1;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.button input:hover {
+  background: #50C878;
+}
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+  .form .input-box {
+    width: 100%;
+  }
+
+  .gender {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+
