@@ -4,6 +4,7 @@ Welcome to the Medical Services Web Application, a comprehensive platform design
 
 ![App Screenshot](https://us.123rf.com/450wm/drogatnev/drogatnev1702/drogatnev170200005/70914610-docteur-pointage-presse-papiers-m%C3%A9dical-carte-patient-illustration-vectorielle-dans-un-style.jpg?ver=6)
 
+
 ## Table of Contents
 
 - [Overview](#overview)
