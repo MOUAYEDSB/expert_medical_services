@@ -1,0 +1,96 @@
+.header {
+	padding: 10px 30px 10px 30px;
+	background-color: #4169E1;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+	box-shadow: inset 1px -1px 20px 0px #2c2c2c33;
+
+}
+.header .logo {
+	width: 70px;
+	height: 70px;
+	display: flex;
+}
+
+.navbar a {
+	all: initial;
+	color: white;
+	font-size: 1.7rem;
+	margin-left: 2rem;
+	position: relative;
+}
+
+.navbar a::after {
+	content: '';
+	background: var(--secclr);
+	width: 0%;
+	height: 3px;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	margin-top: 5px;
+	transition: 0.5s;
+}
+
+.navbar a:hover::after {
+	content: '';
+	background: #50C878;
+	width: 100%;
+	height: 3px;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	margin-top: 5px;
+}
+
+.navbar.active {
+	clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%);
+
+}
+
+.icons a{
+	text-decoration: none;
+	color: rgb(231, 177, 0);
+	background: transparent;
+	border-radius: 5px;
+}
+
+.icons a:hover {
+	background: transparent;
+	border: 1px solid var(--secclr);
+}
+
+.dropdown {
+	position: relative;
+  }
+  
+  .dropdown-menu {
+	display: none;
+	position: absolute;
+	z-index: 1;
+	border-radius: 5px;
+	border-color: transparent;
+	background-color: rgba(249, 249, 249, 0.503);
+  }
+  
+  .dropdown-menu a {
+	color: black;
+	background-color: transparent;
+	text-decoration: none;
+	display: block;
+	font-size: 14px;
+	margin: 10px;
+
+  }
+  
+.dropdown:hover .dropdown-menu {
+	display: block;
+}
+
+.dropdown-item:hover{
+background-color: transparent; 
+}
